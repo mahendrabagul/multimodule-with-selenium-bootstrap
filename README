@@ -52,3 +52,52 @@ For Selenium Test
 
 Run ./gradlew runseleniumtest from root project 
 
+To run this project on your machine, clone this project using git's
+
+git clone https://mahendrabagul@bitbucket.org/mahendrabagul/finalbaseproject.git
+
+After cloning, do some configurations given next.
+
+Configurations
+
+##################################################################################################################################
+
+Create database 'neova'
+
+Create tables as:
+
+CREATE TABLE roles ( id int(6) NOT NULL AUTO_INCREMENT, role varchar(20) NOT NULL, PRIMARY KEY (id) ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+CREATE TABLE users ( id int(6) NOT NULL AUTO_INCREMENT, login varchar(20) NOT NULL, password varchar(20) NOT NULL, PRIMARY KEY (id) ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+CREATE TABLE user_roles ( user_id int(6) NOT NULL, role_id int(6) NOT NULL, KEY user (user_id), KEY role (role_id) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Insert sample data as:
+
+INSERT INTO neova.roles (role) VALUES ('admin'), ('moderator');
+INSERT INTO neova.users (login, password) VALUES ('user', 'user'), ('admin', 'admin');
+INSERT INTO neova.user_roles (user_id, role_id) VALUES (1, 2), (2, 1);
+
+Move to your project's Directory.
+
+Run ./gradlew tomcatinstall to install tomcat.
+
+Run ./gradlew eclipse to generate eclipse nature project.
+
+Run ./gradlew deploywar to deploywar.
+
+Move to tomcat's bin directory and run startup.sh.
+
+Visit http://localhost:8080/web for the baseprojects output.
+
+##################################################################################################################################
+
+For Running Pmd 
+
+Run ./gradlew pmdMain from root project.
+
+##################################################################################################################################
+
+For Running Cobertura
+
+Run ./gradlew cobertura from root project.
+
+##################################################################################################################################
