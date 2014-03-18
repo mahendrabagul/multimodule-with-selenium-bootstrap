@@ -1,0 +1,29 @@
+Mar 17, 2014 4:40:37 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+16:40:37.343 INFO - Java: Oracle Corporation 23.7-b01
+16:40:37.353 INFO - OS: Linux 3.9.10-100.fc17.x86_64 amd64
+16:40:37.389 INFO - v2.23.0, with Core v2.23.0. Built from revision 17137
+16:40:37.926 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:40:37.931 INFO - Version Jetty/5.1.x
+16:40:37.932 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+16:40:37.940 INFO - Started HttpContext[/selenium-server,/selenium-server]
+16:40:37.941 INFO - Started HttpContext[/,/]
+16:40:38.030 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@3bd62ac4
+16:40:38.030 INFO - Started HttpContext[/wd,/wd]
+16:40:38.048 INFO - Started SocketListener on 0.0.0.0:4444
+16:40:38.049 INFO - Started org.openqa.jetty.jetty.Server@3792e652
+16:40:46.982 INFO - Checking Resource aliases
+16:40:46.989 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080/web/, ] on session null
+16:40:46.994 INFO - creating new remote session
+16:40:47.214 WARN - Caution: '/usr/bin/firefox': file is a script file, not a real executable.  The browser environment is no longer fully under RC control
+16:40:47.218 INFO - Allocated session b5dd1aad0eab42dea03fd90a57b467aa for http://localhost:8080/web/, launching...
+jar:file:/home/neouser/BaseProjectUsingGradle/BaseProject/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+16:40:47.653 INFO - Preparing Firefox profile...
+16:40:53.574 INFO - Launching Firefox...
+16:41:00.581 INFO - Got result: OK,b5dd1aad0eab42dea03fd90a57b467aa on session b5dd1aad0eab42dea03fd90a57b467aa
+16:41:00.598 INFO - Command request: open[/, ] on session b5dd1aad0eab42dea03fd90a57b467aa
+16:41:01.643 INFO - Got result: OK on session b5dd1aad0eab42dea03fd90a57b467aa
+16:41:01.965 INFO - Command request: shutDownSeleniumServer[, ] on session null
+16:41:01.966 INFO - Shutdown command received
+16:41:01.967 INFO - Got result: OK on session null
+16:41:01.980 INFO - initiating shutdown

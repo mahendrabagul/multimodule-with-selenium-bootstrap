@@ -1,0 +1,41 @@
+Mar 18, 2014 12:08:11 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+12:08:17.205 INFO - Java: Oracle Corporation 23.7-b01
+12:08:17.232 INFO - OS: Linux 3.9.10-100.fc17.x86_64 amd64
+12:08:17.288 INFO - v2.23.0, with Core v2.23.0. Built from revision 17137
+12:08:18.466 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+12:08:18.471 INFO - Version Jetty/5.1.x
+12:08:18.473 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+12:08:18.486 INFO - Started HttpContext[/selenium-server,/selenium-server]
+12:08:18.486 INFO - Started HttpContext[/,/]
+12:08:18.614 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@7c2c5810
+12:08:18.617 INFO - Started HttpContext[/wd,/wd]
+12:08:18.660 INFO - Started SocketListener on 0.0.0.0:4444
+12:08:18.660 INFO - Started org.openqa.jetty.jetty.Server@cbf2f7c
+12:08:21.344 INFO - Checking Resource aliases
+12:08:21.379 INFO - Command request: getNewBrowserSession[*firefox, http://, ] on session null
+12:08:21.384 INFO - creating new remote session
+12:08:21.583 WARN - Caution: '/usr/bin/firefox': file is a script file, not a real executable.  The browser environment is no longer fully under RC control
+12:08:21.588 INFO - Allocated session e6429a86cd8848a3bdbdc97127a4e306 for http://, launching...
+jar:file:/home/neouser/mahi/finalbaseproject/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+12:08:22.098 INFO - Preparing Firefox profile...
+12:08:36.212 INFO - Launching Firefox...
+12:08:47.338 INFO - Got result: OK,e6429a86cd8848a3bdbdc97127a4e306 on session e6429a86cd8848a3bdbdc97127a4e306
+12:08:47.385 INFO - Command request: open[/, ] on session e6429a86cd8848a3bdbdc97127a4e306
+12:08:47.469 INFO - Got result: ERROR: Command execution failure. Please search the user group at https://groups.google.com/forum/#!forum/selenium-users for error details from the log window.  The error message is: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIDOMLocation.href] on session e6429a86cd8848a3bdbdc97127a4e306
+12:15:14.197 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+12:15:14.197 INFO - creating new remote session
+12:15:14.199 INFO - Allocated session 1a8305aa4e15436fa2adbdaee8862bbb for http://localhost:8080, launching...
+jar:file:/home/neouser/mahi/finalbaseproject/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+12:15:14.361 INFO - Preparing Firefox profile...
+12:15:19.697 INFO - Launching Firefox...
+12:15:26.224 INFO - Got result: OK,1a8305aa4e15436fa2adbdaee8862bbb on session 1a8305aa4e15436fa2adbdaee8862bbb
+12:15:26.239 INFO - Command request: open[/, ] on session 1a8305aa4e15436fa2adbdaee8862bbb
+12:15:42.660 INFO - Got result: OK on session 1a8305aa4e15436fa2adbdaee8862bbb
+12:15:42.667 INFO - Command request: open[http://localhost:8080/web/, ] on session 1a8305aa4e15436fa2adbdaee8862bbb
+12:15:48.462 INFO - Got result: OK on session 1a8305aa4e15436fa2adbdaee8862bbb
+12:15:49.658 INFO - Command request: shutDownSeleniumServer[, ] on session null
+12:15:49.658 INFO - Shutdown command received
+12:15:49.669 INFO - Got result: OK on session null
+12:15:49.685 INFO - initiating shutdown
+12:15:50.186 INFO - Shutting down...

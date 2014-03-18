@@ -1,0 +1,30 @@
+Mar 17, 2014 4:37:26 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+16:37:26.981 INFO - Java: Oracle Corporation 23.7-b01
+16:37:26.991 INFO - OS: Linux 3.9.10-100.fc17.x86_64 amd64
+16:37:27.026 INFO - v2.23.0, with Core v2.23.0. Built from revision 17137
+16:37:27.645 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:37:27.649 INFO - Version Jetty/5.1.x
+16:37:27.651 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+16:37:27.663 INFO - Started HttpContext[/selenium-server,/selenium-server]
+16:37:27.663 INFO - Started HttpContext[/,/]
+16:37:27.823 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@62059579
+16:37:27.823 INFO - Started HttpContext[/wd,/wd]
+16:37:27.864 INFO - Started SocketListener on 0.0.0.0:4444
+16:37:27.865 INFO - Started org.openqa.jetty.jetty.Server@3792e652
+16:37:37.422 INFO - Checking Resource aliases
+16:37:37.477 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080/web, ] on session null
+16:37:37.504 INFO - creating new remote session
+16:37:37.721 WARN - Caution: '/usr/bin/firefox': file is a script file, not a real executable.  The browser environment is no longer fully under RC control
+16:37:37.727 INFO - Allocated session 1f77a7d734ca41cfb9449ffd7a6615fb for http://localhost:8080/web, launching...
+16:37:37.729 WARN - It looks like your baseUrl (http://localhost:8080/web) is pointing to a file, not a directory (it doesn't end with a /).  We're going to have to strip off the last part of the pathname.
+jar:file:/home/neouser/BaseProjectUsingGradle/BaseProject/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+16:37:38.571 INFO - Preparing Firefox profile...
+16:37:48.611 INFO - Launching Firefox...
+16:38:05.007 INFO - Got result: OK,1f77a7d734ca41cfb9449ffd7a6615fb on session 1f77a7d734ca41cfb9449ffd7a6615fb
+16:38:05.050 INFO - Command request: open[/, ] on session 1f77a7d734ca41cfb9449ffd7a6615fb
+16:38:06.607 INFO - Got result: OK on session 1f77a7d734ca41cfb9449ffd7a6615fb
+16:38:07.789 INFO - Command request: shutDownSeleniumServer[, ] on session null
+16:38:07.789 INFO - Shutdown command received
+16:38:07.803 INFO - initiating shutdown
+16:38:07.803 INFO - Got result: OK on session null

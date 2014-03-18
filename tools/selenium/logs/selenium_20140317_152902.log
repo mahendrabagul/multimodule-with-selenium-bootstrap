@@ -1,0 +1,19 @@
+Mar 17, 2014 3:29:03 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+15:29:03.773 INFO - Java: Oracle Corporation 23.7-b01
+15:29:03.788 INFO - OS: Linux 3.9.10-100.fc17.x86_64 amd64
+15:29:03.845 INFO - v2.23.0, with Core v2.23.0. Built from revision 17137
+15:29:04.657 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+15:29:04.659 INFO - Version Jetty/5.1.x
+15:29:04.671 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+15:29:04.681 INFO - Started HttpContext[/selenium-server,/selenium-server]
+15:29:04.682 INFO - Started HttpContext[/,/]
+15:29:04.857 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@62059579
+15:29:04.857 INFO - Started HttpContext[/wd,/wd]
+15:29:04.902 INFO - Started SocketListener on 0.0.0.0:4444
+15:29:04.902 INFO - Started org.openqa.jetty.jetty.Server@4954c72c
+15:29:07.412 INFO - Checking Resource aliases
+15:29:07.416 INFO - Command request: shutDownSeleniumServer[, ] on session null
+15:29:07.417 INFO - Shutdown command received
+15:29:07.425 INFO - initiating shutdown
+15:29:07.426 INFO - Got result: OK on session null
