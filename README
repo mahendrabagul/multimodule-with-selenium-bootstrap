@@ -1,4 +1,12 @@
+To run this project on your machine, clone this project using git's
+
+git clone https://mahendrabagul@bitbucket.org/mahendrabagul/finalbaseproject.git
+
+After cloning, do some configurations given next.
+
 Configurations
+
+##################################################################################################################################
 
 Create database 'neova'
 
@@ -24,10 +32,18 @@ Run ./gradlew deploywar to deploywar.
 
 Move to tomcat's bin directory and run startup.sh.
 
+Visit http://localhost:8080/web for the baseprojects output.
 
+##################################################################################################################################
 
+For Running Pmd 
 
+Run ./gradlew pmdMain from root project.
 
+##################################################################################################################################
 
+For Running Cobertura
 
+Run ./gradlew cobertura from root project.
 
+##################################################################################################################################
