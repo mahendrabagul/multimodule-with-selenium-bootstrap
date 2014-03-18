@@ -47,3 +47,8 @@ For Running Cobertura
 Run ./gradlew cobertura from root project.
 
 ##################################################################################################################################
+
+For Selenium Test 
+
+Run ./gradlew runseleniumtest from root project 
+
