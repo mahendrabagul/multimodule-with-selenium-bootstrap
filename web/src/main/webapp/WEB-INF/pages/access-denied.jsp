@@ -48,8 +48,8 @@
 	<!--Contains of Home Page-->
 	<div class="container">
 		<div class="jumbotron">
-			<h1 class="text-center">You have not access to this Page</h1>
-			<p class="text-center">
+			<h1 class="text-center" style="color:red">You do not have access to this Page</h1>
+			<p class="text-center" style="color:red">
 				This page can be viewed by users having rights of admin . It's not available for all users.<br />
 			</p>
 		</div>
