@@ -1,6 +1,6 @@
 To run this project on your machine, clone this project using git's
 
-git clone https://mahendrabagul@bitbucket.org/mahendrabagul/multimodulewithseleniumandbootstrap.git
+git clone git@bitbucket.org:mahendrabagul/multimodulewithseleniumandbootstrap.git
 
 After cloning, do some configurations given next.
 
