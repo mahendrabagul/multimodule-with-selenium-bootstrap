@@ -1,0 +1,184 @@
+Mar 21, 2014 11:16:05 AM org.apache.catalina.core.ApplicationContext log
+INFO: Spring WebApplicationInitializers detected on classpath: [com.neova.init.Initializer@73c8bd29]
+Mar 21, 2014 11:16:05 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Mar 21, 2014 11:16:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 11:16:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Mar 21, 2014 11:16:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Mar 21, 2014 11:16:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@62e38e5d')
+Mar 21, 2014 11:29:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Mar 21, 2014 11:29:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Mar 21, 2014 11:29:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 11:29:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Mar 21, 2014 11:30:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Spring WebApplicationInitializers detected on classpath: [com.neova.init.Initializer@6dbba86e]
+Mar 21, 2014 11:30:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Mar 21, 2014 11:31:02 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 11:31:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Mar 21, 2014 11:31:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Mar 21, 2014 11:31:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@39090ad9')
+Mar 21, 2014 11:45:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 11:45:05 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Mar 21, 2014 11:45:05 AM org.apache.catalina.core.StandardContext listenerStop
+SEVERE: Exception sending context destroyed event to listener instance of class org.springframework.web.context.ContextLoaderListener
+java.lang.NoClassDefFoundError: org/springframework/web/context/ContextCleanupListener
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:144)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1028)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1478)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1426)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1626)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:328)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.context.ContextCleanupListener
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1718)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1569)
+	... 16 more
+
+Mar 21, 2014 11:45:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Spring WebApplicationInitializers detected on classpath: [com.neova.init.Initializer@1c5950a9]
+Mar 21, 2014 11:45:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Mar 21, 2014 11:45:21 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 11:45:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: Spring WebApplicationInitializers detected on classpath: [com.neova.init.Initializer@1a97eec4]
+Mar 21, 2014 11:45:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Mar 21, 2014 11:46:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 11:46:25 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Mar 21, 2014 11:46:25 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Mar 21, 2014 11:46:25 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@502797ff')
+Mar 21, 2014 11:46:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Mar 21, 2014 11:46:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Mar 21, 2014 11:46:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 11:46:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Mar 21, 2014 11:50:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Mar 21, 2014 11:50:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Mar 21, 2014 11:50:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 11:50:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Mar 21, 2014 11:53:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: Spring WebApplicationInitializers detected on classpath: [com.neova.init.Initializer@27c28e4e]
+Mar 21, 2014 11:53:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Mar 21, 2014 11:54:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 11:54:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Mar 21, 2014 11:54:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Mar 21, 2014 11:54:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@769307f4')
+Mar 21, 2014 11:58:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Mar 21, 2014 11:58:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Mar 21, 2014 11:58:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 11:58:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Mar 21, 2014 12:00:01 PM org.apache.catalina.core.ApplicationContext log
+INFO: Spring WebApplicationInitializers detected on classpath: [com.neova.init.Initializer@4b9d09e2]
+Mar 21, 2014 12:00:01 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Mar 21, 2014 12:00:09 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 12:00:10 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Mar 21, 2014 12:00:10 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Mar 21, 2014 12:00:10 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@67f47262')
+Mar 21, 2014 12:02:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 12:02:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Mar 21, 2014 12:02:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: Spring WebApplicationInitializers detected on classpath: [com.neova.init.Initializer@56fc4a8d]
+Mar 21, 2014 12:02:31 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Mar 21, 2014 12:02:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 12:02:48 PM org.apache.catalina.core.ApplicationContext log
+INFO: Spring WebApplicationInitializers detected on classpath: [com.neova.init.Initializer@1a618a48]
+Mar 21, 2014 12:02:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Mar 21, 2014 12:03:09 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 12:03:11 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Mar 21, 2014 12:03:11 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Mar 21, 2014 12:03:11 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@79789b9a')
+Mar 21, 2014 12:03:12 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Mar 21, 2014 12:03:12 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Mar 21, 2014 12:03:12 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 12:03:13 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Mar 21, 2014 12:03:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Mar 21, 2014 12:03:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Mar 21, 2014 12:03:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 12:03:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Mar 21, 2014 12:15:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: Spring WebApplicationInitializers detected on classpath: [com.neova.init.Initializer@6ccd3e02]
+Mar 21, 2014 12:15:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Mar 21, 2014 12:15:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 12:15:56 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Mar 21, 2014 12:15:56 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Mar 21, 2014 12:15:56 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@64c14d9e')
+Mar 21, 2014 12:16:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Mar 21, 2014 12:16:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Mar 21, 2014 12:16:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Mar 21, 2014 12:16:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext

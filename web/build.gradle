@@ -16,11 +16,16 @@ sourceSets {
 	 srcDir 'src/main/resources'
      }
   }
-
   test {
     java {
     	srcDir 'src/test/java'
-	srcDir 'src/seleniumTest/java'
+		srcDir 'src/seleniumTest/java'
+    }
+  }
+  
+  seleniumTest {
+    java {
+      srcDir 'src/seleniumTest/java'
     }
   }
 }
@@ -68,6 +73,7 @@ dependencies {
 	testCompile 'org.testng:testng:6.8.5'
 	//testCompile 'org.seleniumhq.selenium:selenium-java:2.23.0'
 	testCompile 'org.seleniumhq.selenium:selenium-java:2.37.0'
+	compile 'org.seleniumhq.selenium:selenium-java:2.37.0'
 	compile "org.springframework:spring-orm:$springVersion"
 	compile "org.springframework:spring-aop:$springVersion"
 	compile "org.springframework:spring-webmvc:$springVersion"
@@ -89,8 +95,8 @@ dependencies {
 
 	//seleniumTestCompile sourceSets.main.output
 	//seleniumTestCompile sourceSets.test.output
-	//seleniumTestCompile configurations.testCompile
-	//seleniumTestCompile configurations.testRuntime
+	seleniumTestCompile configurations.testCompile
+	seleniumTestCompile configurations.testRuntime
 	
 }
 
@@ -119,10 +125,9 @@ task deployWar(type: Copy, dependsOn: cleanupPreviousDeployment) {
   into(file(webappsDir))
 }
 
-task runSeleniumTest(type: Test) {
+task runSeleniumTest(type: Test, dependsOn: seleniumTestClasses) {
 
 	useTestNG()
-	 scanForTestClasses = true
 }
 
 runSeleniumTest.doFirst {

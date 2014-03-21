@@ -1,0 +1,304 @@
+Mar 21, 2014 11:45:08 AM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+11:45:09.275 INFO - Java: Oracle Corporation 23.7-b01
+11:45:09.279 INFO - OS: Linux 3.9.10-100.fc17.x86_64 amd64
+11:45:09.312 INFO - v2.23.0, with Core v2.23.0. Built from revision 17137
+11:45:09.772 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+11:45:09.776 INFO - Version Jetty/5.1.x
+11:45:09.778 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+11:45:09.780 INFO - Started HttpContext[/selenium-server,/selenium-server]
+11:45:09.780 INFO - Started HttpContext[/,/]
+11:45:09.871 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@63b8dba5
+11:45:09.871 INFO - Started HttpContext[/wd,/wd]
+11:45:09.912 INFO - Started SocketListener on 0.0.0.0:4444
+11:45:09.912 INFO - Started org.openqa.jetty.jetty.Server@3792e652
+11:45:25.478 INFO - Checking Resource aliases
+11:45:25.520 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080/web/, ] on session null
+11:45:25.548 INFO - creating new remote session
+11:45:25.929 WARN - Caution: '/usr/bin/firefox': file is a script file, not a real executable.  The browser environment is no longer fully under RC control
+11:45:25.948 INFO - Allocated session 8617a5bfe7f24532b7ebe35024c355b9 for http://localhost:8080/web/, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+11:45:26.508 INFO - Preparing Firefox profile...
+11:46:01.832 INFO - Launching Firefox...
+11:46:26.227 INFO - Got result: OK,8617a5bfe7f24532b7ebe35024c355b9 on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:26.428 INFO - Command request: open[http://localhost:8080/web/, ] on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:36.673 INFO - Got result: OK on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:37.010 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:37.035 INFO - Got result: OK on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:37.041 INFO - Command request: click[//*[@id='a-moderation-page'], ] on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:37.207 INFO - Got result: OK on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:37.218 INFO - Command request: waitForCondition[selenium.isElementPresent("//input[@id='j_username']");, 180000] on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:38.084 INFO - Got result: OK on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:38.088 INFO - Command request: type[//input[@id='j_username'], admin] on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:38.304 INFO - Got result: OK on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:38.309 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='j_password']");, 180000] on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:38.484 INFO - Got result: OK on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:38.488 INFO - Command request: type[//*[@id='j_password'], admin] on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:38.533 INFO - Got result: OK on session 8617a5bfe7f24532b7ebe35024c355b9
+11:46:38.539 INFO - Command request: waitForCondition[selenium.isElementPresent("//button[@id='a-submit']");, 180000] on session 8617a5bfe7f24532b7ebe35024c355b9
+11:47:15.695 INFO - Got result: Current window or frame is closed! on session 8617a5bfe7f24532b7ebe35024c355b9
+11:47:15.714 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session 8617a5bfe7f24532b7ebe35024c355b9
+11:47:15.714 INFO - Got result: Current window or frame is closed! on session 8617a5bfe7f24532b7ebe35024c355b9
+11:47:15.743 INFO - Command request: testComplete[, ] on session 8617a5bfe7f24532b7ebe35024c355b9
+11:47:15.750 INFO - Killing Firefox...
+11:47:16.382 INFO - Got result: OK on session 8617a5bfe7f24532b7ebe35024c355b9
+11:47:16.393 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080/web/, ] on session null
+11:47:16.393 INFO - creating new remote session
+11:47:16.394 INFO - Allocated session 5bab4615f6514e66af2adf847fbb4a87 for http://localhost:8080/web/, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+11:47:16.888 INFO - Preparing Firefox profile...
+11:47:23.301 INFO - Launching Firefox...
+11:47:29.354 INFO - Got result: OK,5bab4615f6514e66af2adf847fbb4a87 on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:29.460 INFO - Command request: open[http://localhost:8080/web/, ] on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:36.947 INFO - Got result: OK on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:36.960 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:36.990 INFO - Got result: OK on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:36.996 INFO - Command request: click[//*[@id='a-moderation-page'], ] on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:37.044 INFO - Got result: OK on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:37.051 INFO - Command request: waitForCondition[selenium.isElementPresent("//input[@id='j_username']");, 180000] on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:37.254 INFO - Got result: OK on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:37.259 INFO - Command request: type[//input[@id='j_username'], user] on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:37.327 INFO - Got result: OK on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:37.334 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='j_password']");, 180000] on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:37.351 INFO - Got result: OK on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:37.357 INFO - Command request: type[//*[@id='j_password'], user] on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:37.381 INFO - Got result: OK on session 5bab4615f6514e66af2adf847fbb4a87
+11:47:37.387 INFO - Command request: waitForCondition[selenium.isElementPresent("//button[@id='a-submit']");, 180000] on session 5bab4615f6514e66af2adf847fbb4a87
+11:49:25.860 INFO - Got result: Current window or frame is closed! on session 5bab4615f6514e66af2adf847fbb4a87
+11:49:25.883 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session 5bab4615f6514e66af2adf847fbb4a87
+11:49:25.883 INFO - Got result: Current window or frame is closed! on session 5bab4615f6514e66af2adf847fbb4a87
+11:49:25.908 INFO - Command request: testComplete[, ] on session 5bab4615f6514e66af2adf847fbb4a87
+11:49:25.909 INFO - Killing Firefox...
+11:49:26.046 INFO - Got result: OK on session 5bab4615f6514e66af2adf847fbb4a87
+11:53:42.759 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080/web/, ] on session null
+11:53:42.759 INFO - creating new remote session
+11:53:42.760 INFO - Allocated session 0dbbfa8de4e04fd5b17c8c8632045cfb for http://localhost:8080/web/, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+11:53:42.911 INFO - Preparing Firefox profile...
+11:53:47.678 INFO - Launching Firefox...
+11:53:54.878 INFO - Got result: OK,0dbbfa8de4e04fd5b17c8c8632045cfb on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:53:54.992 INFO - Command request: open[http://localhost:8080/web/, ] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.369 INFO - Got result: OK on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.414 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.430 INFO - Got result: OK on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.435 INFO - Command request: click[//*[@id='a-moderation-page'], ] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.477 INFO - Got result: OK on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.482 INFO - Command request: waitForCondition[selenium.isElementPresent("//input[@id='j_username']");, 180000] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.728 INFO - Got result: OK on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.733 INFO - Command request: type[//input[@id='j_username'], admin] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.784 INFO - Got result: OK on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.791 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='j_password']");, 180000] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.806 INFO - Got result: OK on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.811 INFO - Command request: type[//*[@id='j_password'], admin] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.828 INFO - Got result: OK on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:54:11.836 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-submit']");, 180000] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:57:11.857 INFO - Got result: Timed out after 180000ms on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:57:11.866 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:57:28.690 INFO - Got result: OK on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:57:28.695 INFO - Command request: click[//*[@id='a-logout-button'], ] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:57:28.779 INFO - Got result: OK on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:57:28.785 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:57:28.859 INFO - Got result: OK on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:57:28.872 INFO - Command request: testComplete[, ] on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:57:28.872 INFO - Killing Firefox...
+11:57:29.009 INFO - Got result: OK on session 0dbbfa8de4e04fd5b17c8c8632045cfb
+11:57:29.021 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080/web/, ] on session null
+11:57:29.026 INFO - creating new remote session
+11:57:29.027 INFO - Allocated session e97d592984f84a48a3b5006821c28d4a for http://localhost:8080/web/, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+11:57:29.117 INFO - Preparing Firefox profile...
+11:57:32.724 INFO - Launching Firefox...
+11:57:41.115 INFO - Got result: OK,e97d592984f84a48a3b5006821c28d4a on session e97d592984f84a48a3b5006821c28d4a
+11:57:41.220 INFO - Command request: open[http://localhost:8080/web/, ] on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.277 INFO - Got result: OK on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.296 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.339 INFO - Got result: OK on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.344 INFO - Command request: click[//*[@id='a-moderation-page'], ] on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.381 INFO - Got result: OK on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.388 INFO - Command request: waitForCondition[selenium.isElementPresent("//input[@id='j_username']");, 180000] on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.608 INFO - Got result: OK on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.614 INFO - Command request: type[//input[@id='j_username'], user] on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.693 INFO - Got result: OK on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.700 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='j_password']");, 180000] on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.715 INFO - Got result: OK on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.720 INFO - Command request: type[//*[@id='j_password'], user] on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.762 INFO - Got result: OK on session e97d592984f84a48a3b5006821c28d4a
+11:57:47.767 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-submit']");, 180000] on session e97d592984f84a48a3b5006821c28d4a
+11:59:50.948 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080/web/, ] on session null
+11:59:50.948 INFO - creating new remote session
+11:59:50.949 INFO - Allocated session c50ae89be1b14076be407f29486fc6aa for http://localhost:8080/web/, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+11:59:51.023 INFO - Preparing Firefox profile...
+11:59:54.884 INFO - Launching Firefox...
+12:00:03.401 INFO - Got result: OK,c50ae89be1b14076be407f29486fc6aa on session c50ae89be1b14076be407f29486fc6aa
+12:00:03.518 INFO - Command request: open[http://localhost:8080/web/, ] on session c50ae89be1b14076be407f29486fc6aa
+12:00:17.115 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:17.154 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session c50ae89be1b14076be407f29486fc6aa
+12:00:17.167 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:17.172 INFO - Command request: click[//*[@id='a-moderation-page'], ] on session c50ae89be1b14076be407f29486fc6aa
+12:00:17.216 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:17.221 INFO - Command request: waitForCondition[selenium.isElementPresent("//input[@id='j_username']");, 180000] on session c50ae89be1b14076be407f29486fc6aa
+12:00:20.483 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:20.487 INFO - Command request: type[//input[@id='j_username'], admin] on session c50ae89be1b14076be407f29486fc6aa
+12:00:20.551 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:20.558 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='j_password']");, 180000] on session c50ae89be1b14076be407f29486fc6aa
+12:00:20.575 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:20.579 INFO - Command request: type[//*[@id='j_password'], admin] on session c50ae89be1b14076be407f29486fc6aa
+12:00:20.599 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:20.606 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-submit']");, 180000] on session c50ae89be1b14076be407f29486fc6aa
+12:00:20.618 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:20.623 INFO - Command request: click[//*[@id='a-submit'], ] on session c50ae89be1b14076be407f29486fc6aa
+12:00:22.013 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:22.020 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session c50ae89be1b14076be407f29486fc6aa
+12:00:22.960 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:22.964 INFO - Command request: isElementPresent[//*[@id='a-logout-button'], ] on session c50ae89be1b14076be407f29486fc6aa
+12:00:23.010 INFO - Got result: OK,true on session c50ae89be1b14076be407f29486fc6aa
+12:00:23.025 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session c50ae89be1b14076be407f29486fc6aa
+12:00:23.035 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:23.039 INFO - Command request: click[//*[@id='a-logout-button'], ] on session c50ae89be1b14076be407f29486fc6aa
+12:00:23.106 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:23.114 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session c50ae89be1b14076be407f29486fc6aa
+12:00:23.301 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:23.314 INFO - Command request: testComplete[, ] on session c50ae89be1b14076be407f29486fc6aa
+12:00:23.315 INFO - Killing Firefox...
+12:00:23.387 INFO - Got result: OK on session c50ae89be1b14076be407f29486fc6aa
+12:00:23.396 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080/web/, ] on session null
+12:00:23.396 INFO - creating new remote session
+12:00:23.397 INFO - Allocated session bf0fda1f94254806a8fe37bcd51625e1 for http://localhost:8080/web/, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+12:00:23.466 INFO - Preparing Firefox profile...
+12:00:27.072 INFO - Launching Firefox...
+12:00:32.647 INFO - Got result: OK,bf0fda1f94254806a8fe37bcd51625e1 on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:32.754 INFO - Command request: open[http://localhost:8080/web/, ] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:38.691 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:38.698 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:38.715 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:38.720 INFO - Command request: click[//*[@id='a-moderation-page'], ] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:38.763 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:38.769 INFO - Command request: waitForCondition[selenium.isElementPresent("//input[@id='j_username']");, 180000] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:38.964 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:38.968 INFO - Command request: type[//input[@id='j_username'], user] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:39.036 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:39.041 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='j_password']");, 180000] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:39.060 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:39.065 INFO - Command request: type[//*[@id='j_password'], user] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:39.081 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:39.090 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-submit']");, 180000] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:39.106 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:39.114 INFO - Command request: click[//*[@id='a-submit'], ] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:39.884 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:39.891 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.322 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.327 INFO - Command request: isElementPresent[//*[@id='a-logout-button'], ] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.502 INFO - Got result: OK,true on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.510 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-home']");, 180000] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.548 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.553 INFO - Command request: click[//*[@id='a-home'], ] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.602 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.609 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-admin-first-page']");, 180000] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.741 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.745 INFO - Command request: click[//*[@id='a-admin-first-page'], ] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.851 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.855 INFO - Command request: isTextPresent[You do not have access to this Page, ] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.893 INFO - Got result: OK,false on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:40.903 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:41.297 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:41.301 INFO - Command request: click[//*[@id='a-logout-button'], ] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:41.631 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:41.635 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:41.830 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:41.836 INFO - Command request: testComplete[, ] on session bf0fda1f94254806a8fe37bcd51625e1
+12:00:41.836 INFO - Killing Firefox...
+12:00:41.954 INFO - Got result: OK on session bf0fda1f94254806a8fe37bcd51625e1
+12:02:36.141 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080/web/, ] on session null
+12:02:36.141 INFO - creating new remote session
+12:02:36.142 INFO - Allocated session 25f51dc36a4e497487becc915229ff82 for http://localhost:8080/web/, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+12:02:36.286 INFO - Preparing Firefox profile...
+12:02:43.265 INFO - Launching Firefox...
+12:02:58.750 INFO - Got result: OK,25f51dc36a4e497487becc915229ff82 on session 25f51dc36a4e497487becc915229ff82
+12:02:58.974 INFO - Command request: open[http://localhost:8080/web/, ] on session 25f51dc36a4e497487becc915229ff82
+12:03:11.859 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:12.358 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session 25f51dc36a4e497487becc915229ff82
+12:03:12.435 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:12.439 INFO - Command request: click[//*[@id='a-moderation-page'], ] on session 25f51dc36a4e497487becc915229ff82
+12:03:12.815 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:12.825 INFO - Command request: waitForCondition[selenium.isElementPresent("//input[@id='j_username']");, 180000] on session 25f51dc36a4e497487becc915229ff82
+12:03:13.754 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:13.758 INFO - Command request: type[//input[@id='j_username'], admin] on session 25f51dc36a4e497487becc915229ff82
+12:03:13.983 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:14.037 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='j_password']");, 180000] on session 25f51dc36a4e497487becc915229ff82
+12:03:14.159 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:14.163 INFO - Command request: type[//*[@id='j_password'], admin] on session 25f51dc36a4e497487becc915229ff82
+12:03:14.214 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:14.221 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-submit']");, 180000] on session 25f51dc36a4e497487becc915229ff82
+12:03:14.239 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:14.244 INFO - Command request: click[//*[@id='a-submit'], ] on session 25f51dc36a4e497487becc915229ff82
+12:03:15.550 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:15.555 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session 25f51dc36a4e497487becc915229ff82
+12:03:16.812 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:16.817 INFO - Command request: isElementPresent[//*[@id='a-logout-button'], ] on session 25f51dc36a4e497487becc915229ff82
+12:03:16.948 INFO - Got result: OK,true on session 25f51dc36a4e497487becc915229ff82
+12:03:17.022 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session 25f51dc36a4e497487becc915229ff82
+12:03:17.095 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:17.099 INFO - Command request: click[//*[@id='a-logout-button'], ] on session 25f51dc36a4e497487becc915229ff82
+12:03:17.193 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:17.197 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session 25f51dc36a4e497487becc915229ff82
+12:03:17.396 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:17.409 INFO - Command request: testComplete[, ] on session 25f51dc36a4e497487becc915229ff82
+12:03:17.409 INFO - Killing Firefox...
+12:03:17.904 INFO - Got result: OK on session 25f51dc36a4e497487becc915229ff82
+12:03:17.913 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080/web/, ] on session null
+12:03:17.913 INFO - creating new remote session
+12:03:17.914 INFO - Allocated session 98ae94a915654ba995d858399005900d for http://localhost:8080/web/, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+12:03:18.901 INFO - Preparing Firefox profile...
+12:03:28.465 INFO - Launching Firefox...
+12:03:36.058 INFO - Got result: OK,98ae94a915654ba995d858399005900d on session 98ae94a915654ba995d858399005900d
+12:03:36.189 INFO - Command request: open[http://localhost:8080/web/, ] on session 98ae94a915654ba995d858399005900d
+12:03:42.057 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:42.068 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session 98ae94a915654ba995d858399005900d
+12:03:42.087 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:42.091 INFO - Command request: click[//*[@id='a-moderation-page'], ] on session 98ae94a915654ba995d858399005900d
+12:03:42.131 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:42.136 INFO - Command request: waitForCondition[selenium.isElementPresent("//input[@id='j_username']");, 180000] on session 98ae94a915654ba995d858399005900d
+12:03:42.526 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:42.530 INFO - Command request: type[//input[@id='j_username'], user] on session 98ae94a915654ba995d858399005900d
+12:03:42.718 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:42.724 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='j_password']");, 180000] on session 98ae94a915654ba995d858399005900d
+12:03:42.767 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:42.774 INFO - Command request: type[//*[@id='j_password'], user] on session 98ae94a915654ba995d858399005900d
+12:03:42.793 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:42.801 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-submit']");, 180000] on session 98ae94a915654ba995d858399005900d
+12:03:42.820 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:42.824 INFO - Command request: click[//*[@id='a-submit'], ] on session 98ae94a915654ba995d858399005900d
+12:03:45.221 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:45.229 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session 98ae94a915654ba995d858399005900d
+12:03:45.462 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:45.467 INFO - Command request: isElementPresent[//*[@id='a-logout-button'], ] on session 98ae94a915654ba995d858399005900d
+12:03:45.517 INFO - Got result: OK,true on session 98ae94a915654ba995d858399005900d
+12:03:45.521 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-home']");, 180000] on session 98ae94a915654ba995d858399005900d
+12:03:45.541 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:45.554 INFO - Command request: click[//*[@id='a-home'], ] on session 98ae94a915654ba995d858399005900d
+12:03:45.600 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:45.604 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-admin-first-page']");, 180000] on session 98ae94a915654ba995d858399005900d
+12:03:45.784 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:45.788 INFO - Command request: click[//*[@id='a-admin-first-page'], ] on session 98ae94a915654ba995d858399005900d
+12:03:45.857 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:45.862 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session 98ae94a915654ba995d858399005900d
+12:03:46.196 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:46.199 INFO - Command request: isTextPresent[You do not have access to this Page, ] on session 98ae94a915654ba995d858399005900d
+12:03:46.333 INFO - Got result: OK,true on session 98ae94a915654ba995d858399005900d
+12:03:46.337 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-logout-button']");, 180000] on session 98ae94a915654ba995d858399005900d
+12:03:46.380 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:46.386 INFO - Command request: click[//*[@id='a-logout-button'], ] on session 98ae94a915654ba995d858399005900d
+12:03:46.428 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:46.433 INFO - Command request: waitForCondition[selenium.isElementPresent("//*[@id='a-moderation-page']");, 180000] on session 98ae94a915654ba995d858399005900d
+12:03:46.591 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:46.602 INFO - Command request: testComplete[, ] on session 98ae94a915654ba995d858399005900d
+12:03:46.602 INFO - Killing Firefox...
+12:03:46.770 INFO - Got result: OK on session 98ae94a915654ba995d858399005900d
+12:03:49.738 INFO - Command request: shutDownSeleniumServer[, ] on session null
+12:03:49.738 INFO - Shutdown command received
+12:03:49.772 INFO - initiating shutdown
+12:03:49.773 INFO - Got result: OK on session null

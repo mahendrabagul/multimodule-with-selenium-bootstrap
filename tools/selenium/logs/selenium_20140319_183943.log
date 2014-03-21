@@ -1,0 +1,18 @@
+Mar 19, 2014 6:39:44 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+18:39:44.475 INFO - Java: Oracle Corporation 23.7-b01
+18:39:44.479 INFO - OS: Linux 3.9.10-100.fc17.x86_64 amd64
+18:39:44.507 INFO - v2.23.0, with Core v2.23.0. Built from revision 17137
+18:39:44.882 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+18:39:44.885 INFO - Version Jetty/5.1.x
+18:39:44.887 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+18:39:44.889 INFO - Started HttpContext[/selenium-server,/selenium-server]
+18:39:44.889 INFO - Started HttpContext[/,/]
+18:39:44.993 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@62059579
+18:39:44.993 INFO - Started HttpContext[/wd,/wd]
+18:39:44.998 WARN - Failed to start: SocketListener0@0.0.0.0:4444
+Exception in thread "main" java.net.BindException: Selenium is already running on port 4444. Or some other service is.
+	at org.openqa.selenium.server.SeleniumServer.start(SeleniumServer.java:483)
+	at org.openqa.selenium.server.SeleniumServer.boot(SeleniumServer.java:283)
+	at org.openqa.selenium.server.SeleniumServer.main(SeleniumServer.java:246)
+	at org.openqa.grid.selenium.GridLauncher.main(GridLauncher.java:54)

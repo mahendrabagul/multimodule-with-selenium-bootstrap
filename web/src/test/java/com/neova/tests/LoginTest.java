@@ -5,7 +5,8 @@ import org.testng.annotations.Test;
 
 public class LoginTest {
   
-	@Test
+
+	@Test(enabled = false)
 	public void testLoginAsAdmin() {
 		
 		Assert.assertEquals("admin", "admin");

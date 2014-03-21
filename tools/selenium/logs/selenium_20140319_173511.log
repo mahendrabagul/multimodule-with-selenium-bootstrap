@@ -1,0 +1,492 @@
+Mar 19, 2014 5:35:11 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+17:35:12.173 INFO - Java: Oracle Corporation 23.7-b01
+17:35:12.177 INFO - OS: Linux 3.9.10-100.fc17.x86_64 amd64
+17:35:12.200 INFO - v2.23.0, with Core v2.23.0. Built from revision 17137
+17:35:12.571 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:35:12.574 INFO - Version Jetty/5.1.x
+17:35:12.576 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+17:35:12.578 INFO - Started HttpContext[/selenium-server,/selenium-server]
+17:35:12.578 INFO - Started HttpContext[/,/]
+17:35:12.655 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@3bd62ac4
+17:35:12.655 INFO - Started HttpContext[/wd,/wd]
+17:35:12.672 INFO - Started SocketListener on 0.0.0.0:4444
+17:35:12.673 INFO - Started org.openqa.jetty.jetty.Server@4954c72c
+17:35:27.270 INFO - Checking Resource aliases
+17:35:27.326 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+17:35:27.330 INFO - creating new remote session
+17:35:27.676 WARN - Caution: '/usr/bin/firefox': file is a script file, not a real executable.  The browser environment is no longer fully under RC control
+17:35:27.680 INFO - Allocated session aed972066bff49bf918439d5f51104dd for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+17:35:28.712 INFO - Preparing Firefox profile...
+17:35:40.169 INFO - Launching Firefox...
+17:36:03.958 INFO - Got result: OK,aed972066bff49bf918439d5f51104dd on session aed972066bff49bf918439d5f51104dd
+17:36:04.166 INFO - Command request: open[/, ] on session aed972066bff49bf918439d5f51104dd
+17:36:07.170 INFO - Got result: OK on session aed972066bff49bf918439d5f51104dd
+17:36:07.176 INFO - Command request: open[http://localhost:8080/web/, ] on session aed972066bff49bf918439d5f51104dd
+17:36:18.098 INFO - Got result: OK on session aed972066bff49bf918439d5f51104dd
+17:36:18.107 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session aed972066bff49bf918439d5f51104dd
+17:36:18.323 INFO - Got result: OK on session aed972066bff49bf918439d5f51104dd
+17:36:18.329 INFO - Command request: waitForPageToLoad[5, ] on session aed972066bff49bf918439d5f51104dd
+17:36:18.377 INFO - Got result: Timed out after 5ms on session aed972066bff49bf918439d5f51104dd
+17:36:18.390 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+17:36:18.391 INFO - creating new remote session
+17:36:18.392 INFO - Allocated session ef7af7fb081e46d69f3b78bb383709e8 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+17:36:19.870 INFO - Preparing Firefox profile...
+17:36:55.538 INFO - Launching Firefox...
+17:37:04.511 INFO - Got result: OK,ef7af7fb081e46d69f3b78bb383709e8 on session ef7af7fb081e46d69f3b78bb383709e8
+17:37:04.524 INFO - Command request: open[/, ] on session ef7af7fb081e46d69f3b78bb383709e8
+17:37:04.782 INFO - Got result: OK on session ef7af7fb081e46d69f3b78bb383709e8
+17:37:04.787 INFO - Command request: open[http://localhost:8080/web/, ] on session ef7af7fb081e46d69f3b78bb383709e8
+17:37:10.923 INFO - Got result: OK on session ef7af7fb081e46d69f3b78bb383709e8
+17:37:10.933 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session ef7af7fb081e46d69f3b78bb383709e8
+17:37:10.979 INFO - Got result: OK on session ef7af7fb081e46d69f3b78bb383709e8
+17:37:10.984 INFO - Command request: waitForPageToLoad[5, ] on session ef7af7fb081e46d69f3b78bb383709e8
+17:37:11.052 INFO - Got result: Timed out after 5ms on session ef7af7fb081e46d69f3b78bb383709e8
+17:41:22.168 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+17:41:22.168 INFO - creating new remote session
+17:41:22.170 INFO - Allocated session ce6441be7e4847e18bbfdc4578452a04 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+17:41:22.293 INFO - Preparing Firefox profile...
+17:41:26.600 INFO - Launching Firefox...
+17:41:34.108 INFO - Got result: OK,ce6441be7e4847e18bbfdc4578452a04 on session ce6441be7e4847e18bbfdc4578452a04
+17:41:34.128 INFO - Command request: open[/, ] on session ce6441be7e4847e18bbfdc4578452a04
+17:41:47.247 INFO - Got result: OK on session ce6441be7e4847e18bbfdc4578452a04
+17:41:47.252 INFO - Command request: open[http://localhost:8080/web/, ] on session ce6441be7e4847e18bbfdc4578452a04
+17:41:53.040 INFO - Got result: OK on session ce6441be7e4847e18bbfdc4578452a04
+17:41:53.045 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session ce6441be7e4847e18bbfdc4578452a04
+17:41:53.096 INFO - Got result: OK on session ce6441be7e4847e18bbfdc4578452a04
+17:41:58.103 INFO - Command request: type[//input[@id='j_username'], admin] on session ce6441be7e4847e18bbfdc4578452a04
+17:41:58.124 INFO - Got result: OK on session ce6441be7e4847e18bbfdc4578452a04
+17:41:58.129 INFO - Command request: type[//*[@id='j_password'], admin] on session ce6441be7e4847e18bbfdc4578452a04
+17:41:58.180 INFO - Got result: OK on session ce6441be7e4847e18bbfdc4578452a04
+17:41:58.189 INFO - Command request: click[//button[@id='submit'], ] on session ce6441be7e4847e18bbfdc4578452a04
+17:41:59.282 INFO - Got result: OK on session ce6441be7e4847e18bbfdc4578452a04
+17:42:04.290 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session ce6441be7e4847e18bbfdc4578452a04
+17:42:04.302 INFO - Got result: OK,true on session ce6441be7e4847e18bbfdc4578452a04
+17:42:04.321 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+17:42:04.321 INFO - creating new remote session
+17:42:04.322 INFO - Allocated session f3fc704748f6467881e3d2b3d8926e86 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+17:42:04.385 INFO - Preparing Firefox profile...
+17:42:07.698 INFO - Launching Firefox...
+17:42:12.905 INFO - Got result: OK,f3fc704748f6467881e3d2b3d8926e86 on session f3fc704748f6467881e3d2b3d8926e86
+17:42:12.912 INFO - Command request: open[/, ] on session f3fc704748f6467881e3d2b3d8926e86
+17:42:13.100 INFO - Got result: OK on session f3fc704748f6467881e3d2b3d8926e86
+17:42:13.109 INFO - Command request: open[http://localhost:8080/web/, ] on session f3fc704748f6467881e3d2b3d8926e86
+17:42:18.821 INFO - Got result: OK on session f3fc704748f6467881e3d2b3d8926e86
+17:42:18.828 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session f3fc704748f6467881e3d2b3d8926e86
+17:42:18.876 INFO - Got result: OK on session f3fc704748f6467881e3d2b3d8926e86
+17:42:23.883 INFO - Command request: type[//input[@id='j_username'], user] on session f3fc704748f6467881e3d2b3d8926e86
+17:42:23.904 INFO - Got result: OK on session f3fc704748f6467881e3d2b3d8926e86
+17:42:23.908 INFO - Command request: type[//*[@id='j_password'], user] on session f3fc704748f6467881e3d2b3d8926e86
+17:42:23.952 INFO - Got result: OK on session f3fc704748f6467881e3d2b3d8926e86
+17:42:23.957 INFO - Command request: click[//button[@id='submit'], ] on session f3fc704748f6467881e3d2b3d8926e86
+17:42:24.927 INFO - Got result: OK on session f3fc704748f6467881e3d2b3d8926e86
+17:42:29.932 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session f3fc704748f6467881e3d2b3d8926e86
+17:42:29.951 INFO - Got result: OK,true on session f3fc704748f6467881e3d2b3d8926e86
+17:42:29.955 INFO - Command request: click[//*[@class='active'], ] on session f3fc704748f6467881e3d2b3d8926e86
+17:42:30.009 INFO - Got result: OK on session f3fc704748f6467881e3d2b3d8926e86
+17:42:31.014 INFO - Command request: click[//*[contains(text(),'First Admin page'], ] on session f3fc704748f6467881e3d2b3d8926e86
+17:42:31.027 INFO - Got result: ERROR: Invalid xpath [2]: //*[contains(text(),'First Admin page'] on session f3fc704748f6467881e3d2b3d8926e86
+17:44:19.689 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+17:44:19.689 INFO - creating new remote session
+17:44:19.690 INFO - Allocated session 1c9bd8ab465a4c23a1d2e4653297cc69 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+17:44:19.853 INFO - Preparing Firefox profile...
+17:44:24.233 INFO - Launching Firefox...
+17:44:41.506 INFO - Got result: OK,1c9bd8ab465a4c23a1d2e4653297cc69 on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:44:42.036 INFO - Command request: open[/, ] on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:44:43.713 INFO - Got result: OK on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:44:43.718 INFO - Command request: open[http://localhost:8080/web/, ] on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:44:53.403 INFO - Got result: OK on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:44:53.413 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:44:53.517 INFO - Got result: OK on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:44:58.523 INFO - Command request: type[//input[@id='j_username'], admin] on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:44:58.843 INFO - Got result: OK on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:44:58.848 INFO - Command request: type[//*[@id='j_password'], admin] on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:44:59.057 INFO - Got result: OK on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:44:59.061 INFO - Command request: click[//button[@id='submit'], ] on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:45:01.462 INFO - Got result: OK on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:45:06.467 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:45:06.480 INFO - Got result: OK,true on session 1c9bd8ab465a4c23a1d2e4653297cc69
+17:45:06.516 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+17:45:06.517 INFO - creating new remote session
+17:45:06.517 INFO - Allocated session b3009c65dee048bf8be6c7aeceea2711 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+17:45:06.812 INFO - Preparing Firefox profile...
+17:45:16.276 INFO - Launching Firefox...
+17:45:23.724 INFO - Got result: OK,b3009c65dee048bf8be6c7aeceea2711 on session b3009c65dee048bf8be6c7aeceea2711
+17:45:23.730 INFO - Command request: open[/, ] on session b3009c65dee048bf8be6c7aeceea2711
+17:45:23.925 INFO - Got result: OK on session b3009c65dee048bf8be6c7aeceea2711
+17:45:23.933 INFO - Command request: open[http://localhost:8080/web/, ] on session b3009c65dee048bf8be6c7aeceea2711
+17:45:30.777 INFO - Got result: OK on session b3009c65dee048bf8be6c7aeceea2711
+17:45:30.784 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session b3009c65dee048bf8be6c7aeceea2711
+17:45:30.828 INFO - Got result: OK on session b3009c65dee048bf8be6c7aeceea2711
+17:45:35.832 INFO - Command request: type[//input[@id='j_username'], user] on session b3009c65dee048bf8be6c7aeceea2711
+17:45:35.855 INFO - Got result: OK on session b3009c65dee048bf8be6c7aeceea2711
+17:45:35.859 INFO - Command request: type[//*[@id='j_password'], user] on session b3009c65dee048bf8be6c7aeceea2711
+17:45:35.906 INFO - Got result: OK on session b3009c65dee048bf8be6c7aeceea2711
+17:45:35.914 INFO - Command request: click[//button[@id='submit'], ] on session b3009c65dee048bf8be6c7aeceea2711
+17:45:36.999 INFO - Got result: OK on session b3009c65dee048bf8be6c7aeceea2711
+17:45:42.005 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session b3009c65dee048bf8be6c7aeceea2711
+17:45:42.024 INFO - Got result: OK,true on session b3009c65dee048bf8be6c7aeceea2711
+17:45:42.029 INFO - Command request: click[//*[contains(text(),'Home'], ] on session b3009c65dee048bf8be6c7aeceea2711
+17:45:42.047 INFO - Got result: ERROR: Invalid xpath [2]: //*[contains(text(),'Home'] on session b3009c65dee048bf8be6c7aeceea2711
+17:59:27.160 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+17:59:27.161 INFO - creating new remote session
+17:59:27.161 INFO - Allocated session 413cd96bbf5e4e48900e497e3ed5c7f6 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+17:59:27.202 INFO - Preparing Firefox profile...
+17:59:31.512 INFO - Launching Firefox...
+17:59:42.883 INFO - Got result: OK,413cd96bbf5e4e48900e497e3ed5c7f6 on session 413cd96bbf5e4e48900e497e3ed5c7f6
+17:59:42.920 INFO - Command request: open[/, ] on session 413cd96bbf5e4e48900e497e3ed5c7f6
+17:59:54.375 INFO - Got result: OK on session 413cd96bbf5e4e48900e497e3ed5c7f6
+17:59:54.390 INFO - Command request: open[http://localhost:8080/web/, ] on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:01.918 INFO - Got result: OK on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:01.923 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:02.015 INFO - Got result: OK on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:07.044 INFO - Command request: type[//input[@id='j_username'], admin] on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:07.079 INFO - Got result: OK on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:07.083 INFO - Command request: type[//*[@id='j_password'], admin] on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:07.171 INFO - Got result: OK on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:07.176 INFO - Command request: click[//button[@id='submit'], ] on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:08.257 INFO - Got result: OK on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:13.263 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:13.284 INFO - Got result: OK,true on session 413cd96bbf5e4e48900e497e3ed5c7f6
+18:00:13.325 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+18:00:13.325 INFO - creating new remote session
+18:00:13.326 INFO - Allocated session 9c48ce5900bc4c3d869e61bc657423fd for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+18:00:13.574 INFO - Preparing Firefox profile...
+18:00:25.143 INFO - Launching Firefox...
+18:00:39.935 INFO - Got result: OK,9c48ce5900bc4c3d869e61bc657423fd on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:40.087 INFO - Command request: open[/, ] on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:41.814 INFO - Got result: OK on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:41.819 INFO - Command request: open[http://localhost:8080/web/, ] on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:48.636 INFO - Got result: OK on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:48.641 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:48.788 INFO - Got result: OK on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:53.811 INFO - Command request: type[//input[@id='j_username'], user] on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:53.839 INFO - Got result: OK on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:53.844 INFO - Command request: type[//*[@id='j_password'], user] on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:53.926 INFO - Got result: OK on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:53.931 INFO - Command request: click[//button[@id='submit'], ] on session 9c48ce5900bc4c3d869e61bc657423fd
+18:00:55.086 INFO - Got result: OK on session 9c48ce5900bc4c3d869e61bc657423fd
+18:01:00.092 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session 9c48ce5900bc4c3d869e61bc657423fd
+18:01:00.111 INFO - Got result: OK,true on session 9c48ce5900bc4c3d869e61bc657423fd
+18:01:00.115 INFO - Command request: click[//div[@class='navbar navbar-inverse navbar-static-top']/div/div/ul/li[1]/a, ] on session 9c48ce5900bc4c3d869e61bc657423fd
+18:01:00.172 INFO - Got result: OK on session 9c48ce5900bc4c3d869e61bc657423fd
+18:01:05.178 INFO - Command request: click[//*[contains(text(),'First Admin page'], ] on session 9c48ce5900bc4c3d869e61bc657423fd
+18:01:05.206 INFO - Got result: ERROR: Invalid xpath [2]: //*[contains(text(),'First Admin page'] on session 9c48ce5900bc4c3d869e61bc657423fd
+18:01:05.314 INFO - Command request: testComplete[, ] on session 9c48ce5900bc4c3d869e61bc657423fd
+18:01:05.314 INFO - Killing Firefox...
+18:01:06.023 INFO - Got result: OK on session 9c48ce5900bc4c3d869e61bc657423fd
+18:03:08.031 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+18:03:08.031 INFO - creating new remote session
+18:03:08.032 INFO - Allocated session c17bae9a32ee406796199a24776b87fa for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+18:03:08.224 INFO - Preparing Firefox profile...
+18:04:29.174 INFO - Launching Firefox...
+18:05:12.028 INFO - Got result: OK,c17bae9a32ee406796199a24776b87fa on session c17bae9a32ee406796199a24776b87fa
+18:05:12.331 INFO - Command request: open[/, ] on session c17bae9a32ee406796199a24776b87fa
+18:05:13.034 INFO - Got result: OK on session c17bae9a32ee406796199a24776b87fa
+18:05:13.039 INFO - Command request: open[http://localhost:8080/web/, ] on session c17bae9a32ee406796199a24776b87fa
+18:05:23.231 INFO - Got result: OK on session c17bae9a32ee406796199a24776b87fa
+18:05:23.236 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session c17bae9a32ee406796199a24776b87fa
+18:05:23.367 INFO - Got result: OK on session c17bae9a32ee406796199a24776b87fa
+18:05:28.539 INFO - Command request: type[//input[@id='j_username'], admin] on session c17bae9a32ee406796199a24776b87fa
+18:05:28.555 INFO - Got result: OK on session c17bae9a32ee406796199a24776b87fa
+18:05:28.560 INFO - Command request: type[//*[@id='j_password'], admin] on session c17bae9a32ee406796199a24776b87fa
+18:05:28.715 INFO - Got result: OK on session c17bae9a32ee406796199a24776b87fa
+18:05:28.720 INFO - Command request: click[//button[@id='submit'], ] on session c17bae9a32ee406796199a24776b87fa
+18:05:29.828 INFO - Got result: OK on session c17bae9a32ee406796199a24776b87fa
+18:05:34.867 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session c17bae9a32ee406796199a24776b87fa
+18:05:34.883 INFO - Got result: OK,true on session c17bae9a32ee406796199a24776b87fa
+18:05:34.921 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+18:05:34.921 INFO - creating new remote session
+18:05:34.922 INFO - Allocated session 4040fb7c6fe74e0893b4c81ab82ba058 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+18:05:35.100 INFO - Preparing Firefox profile...
+18:05:43.637 INFO - Launching Firefox...
+18:05:49.190 INFO - Got result: OK,4040fb7c6fe74e0893b4c81ab82ba058 on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:05:49.198 INFO - Command request: open[/, ] on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:05:49.374 INFO - Got result: OK on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:05:49.378 INFO - Command request: open[http://localhost:8080/web/, ] on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:01.958 INFO - Got result: OK on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:01.963 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:02.008 INFO - Got result: OK on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:07.027 INFO - Command request: type[//input[@id='j_username'], user] on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:07.048 INFO - Got result: OK on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:07.052 INFO - Command request: type[//*[@id='j_password'], user] on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:07.096 INFO - Got result: OK on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:07.100 INFO - Command request: click[//button[@id='submit'], ] on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:08.451 INFO - Got result: OK on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:13.456 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:13.477 INFO - Got result: OK,true on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:13.482 INFO - Command request: clickAt[//div[@class='navbar navbar-inverse navbar-static-top']/div/div/ul/li[1]/a, 5,5] on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:13.537 INFO - Got result: OK on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:18.584 INFO - Command request: click[//*[contains(text(),'First Admin page'], ] on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:06:18.602 INFO - Got result: ERROR: Invalid xpath [2]: //*[contains(text(),'First Admin page'] on session 4040fb7c6fe74e0893b4c81ab82ba058
+18:12:57.100 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+18:12:57.100 INFO - creating new remote session
+18:12:57.101 INFO - Allocated session 0d5eecfcf68346b4b5f9dcf911e2d58a for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+18:12:57.277 INFO - Preparing Firefox profile...
+18:13:05.242 INFO - Launching Firefox...
+18:14:32.459 INFO - Got result: OK,0d5eecfcf68346b4b5f9dcf911e2d58a on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:32.557 INFO - Command request: open[/, ] on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:36.038 INFO - Got result: OK on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:36.042 INFO - Command request: open[http://localhost:8080/web/, ] on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:43.419 INFO - Got result: OK on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:43.425 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:43.469 INFO - Got result: OK on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:48.511 INFO - Command request: type[//input[@id='j_username'], admin] on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:48.539 INFO - Got result: OK on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:48.544 INFO - Command request: type[//*[@id='j_password'], admin] on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:48.676 INFO - Got result: OK on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:48.680 INFO - Command request: click[//button[@id='submit'], ] on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:49.842 INFO - Got result: OK on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:54.950 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:54.967 INFO - Got result: OK,false on session 0d5eecfcf68346b4b5f9dcf911e2d58a
+18:14:55.112 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+18:14:55.112 INFO - creating new remote session
+18:14:55.113 INFO - Allocated session bd4b8143996c47cea5f9210b9869efd1 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+18:14:55.505 INFO - Preparing Firefox profile...
+18:15:06.336 INFO - Launching Firefox...
+18:15:12.659 INFO - Got result: OK,bd4b8143996c47cea5f9210b9869efd1 on session bd4b8143996c47cea5f9210b9869efd1
+18:15:12.666 INFO - Command request: open[/, ] on session bd4b8143996c47cea5f9210b9869efd1
+18:15:12.964 INFO - Got result: OK on session bd4b8143996c47cea5f9210b9869efd1
+18:15:12.969 INFO - Command request: open[http://localhost:8080/web/, ] on session bd4b8143996c47cea5f9210b9869efd1
+18:15:18.834 INFO - Got result: OK on session bd4b8143996c47cea5f9210b9869efd1
+18:15:18.840 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session bd4b8143996c47cea5f9210b9869efd1
+18:15:18.890 INFO - Got result: OK on session bd4b8143996c47cea5f9210b9869efd1
+18:15:23.895 INFO - Command request: type[//input[@id='j_username'], user] on session bd4b8143996c47cea5f9210b9869efd1
+18:15:23.941 INFO - Got result: OK on session bd4b8143996c47cea5f9210b9869efd1
+18:15:23.946 INFO - Command request: type[//*[@id='j_password'], user] on session bd4b8143996c47cea5f9210b9869efd1
+18:15:24.003 INFO - Got result: OK on session bd4b8143996c47cea5f9210b9869efd1
+18:15:24.007 INFO - Command request: click[//button[@id='submit'], ] on session bd4b8143996c47cea5f9210b9869efd1
+18:15:25.167 INFO - Got result: OK on session bd4b8143996c47cea5f9210b9869efd1
+18:15:30.210 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session bd4b8143996c47cea5f9210b9869efd1
+18:15:30.244 INFO - Got result: OK,false on session bd4b8143996c47cea5f9210b9869efd1
+18:15:30.323 INFO - Command request: close[, ] on session bd4b8143996c47cea5f9210b9869efd1
+18:15:30.469 INFO - Got result: OK on session bd4b8143996c47cea5f9210b9869efd1
+18:15:30.473 INFO - Command request: testComplete[, ] on session bd4b8143996c47cea5f9210b9869efd1
+18:15:30.536 INFO - Killing Firefox...
+18:15:30.916 INFO - Got result: OK on session bd4b8143996c47cea5f9210b9869efd1
+18:17:18.065 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+18:17:18.065 INFO - creating new remote session
+18:17:18.066 INFO - Allocated session fff3990b59f04234be1238d5cba7d9f6 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+18:17:18.233 INFO - Preparing Firefox profile...
+18:17:23.894 INFO - Launching Firefox...
+18:17:34.192 INFO - Got result: OK,fff3990b59f04234be1238d5cba7d9f6 on session fff3990b59f04234be1238d5cba7d9f6
+18:17:34.242 INFO - Command request: open[/, ] on session fff3990b59f04234be1238d5cba7d9f6
+18:17:34.521 INFO - Got result: OK on session fff3990b59f04234be1238d5cba7d9f6
+18:17:34.524 INFO - Command request: open[http://localhost:8080/web/, ] on session fff3990b59f04234be1238d5cba7d9f6
+18:17:40.251 INFO - Got result: OK on session fff3990b59f04234be1238d5cba7d9f6
+18:17:40.260 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session fff3990b59f04234be1238d5cba7d9f6
+18:17:40.310 INFO - Got result: OK on session fff3990b59f04234be1238d5cba7d9f6
+18:17:45.316 INFO - Command request: type[//input[@id='j_username'], admin] on session fff3990b59f04234be1238d5cba7d9f6
+18:17:45.399 INFO - Got result: OK on session fff3990b59f04234be1238d5cba7d9f6
+18:17:45.403 INFO - Command request: type[//*[@id='j_password'], admin] on session fff3990b59f04234be1238d5cba7d9f6
+18:17:45.482 INFO - Got result: OK on session fff3990b59f04234be1238d5cba7d9f6
+18:17:45.486 INFO - Command request: click[//button[@id='submit'], ] on session fff3990b59f04234be1238d5cba7d9f6
+18:17:46.815 INFO - Got result: OK on session fff3990b59f04234be1238d5cba7d9f6
+18:17:51.842 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session fff3990b59f04234be1238d5cba7d9f6
+18:17:51.852 INFO - Got result: OK,false on session fff3990b59f04234be1238d5cba7d9f6
+18:17:51.906 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+18:17:51.906 INFO - creating new remote session
+18:17:51.907 INFO - Allocated session 5ee8a12d221c4d53b71a235fd0f95674 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+18:17:52.082 INFO - Preparing Firefox profile...
+18:17:58.352 INFO - Launching Firefox...
+18:18:04.476 INFO - Got result: OK,5ee8a12d221c4d53b71a235fd0f95674 on session 5ee8a12d221c4d53b71a235fd0f95674
+18:18:04.481 INFO - Command request: open[/, ] on session 5ee8a12d221c4d53b71a235fd0f95674
+18:18:17.266 INFO - Got result: OK on session 5ee8a12d221c4d53b71a235fd0f95674
+18:18:17.279 INFO - Command request: open[http://localhost:8080/web/, ] on session 5ee8a12d221c4d53b71a235fd0f95674
+18:18:47.309 INFO - Got result: Timed out after 30000ms on session 5ee8a12d221c4d53b71a235fd0f95674
+18:35:02.548 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+18:35:02.549 INFO - creating new remote session
+18:35:02.549 INFO - Allocated session e12aac248bca4e539ceea22fa368c95d for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+18:35:02.660 INFO - Preparing Firefox profile...
+18:35:07.684 INFO - Launching Firefox...
+18:35:17.347 INFO - Got result: OK,e12aac248bca4e539ceea22fa368c95d on session e12aac248bca4e539ceea22fa368c95d
+18:35:17.474 INFO - Command request: open[/, ] on session e12aac248bca4e539ceea22fa368c95d
+18:35:47.514 INFO - Got result: Timed out after 30000ms on session e12aac248bca4e539ceea22fa368c95d
+18:35:47.547 INFO - Command request: close[, ] on session e12aac248bca4e539ceea22fa368c95d
+18:35:47.859 INFO - Got result: OK on session e12aac248bca4e539ceea22fa368c95d
+18:35:47.863 INFO - Command request: testComplete[, ] on session e12aac248bca4e539ceea22fa368c95d
+18:35:47.863 INFO - Killing Firefox...
+18:35:48.095 INFO - Got result: OK on session e12aac248bca4e539ceea22fa368c95d
+18:35:48.105 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+18:35:48.105 INFO - creating new remote session
+18:35:48.173 INFO - Allocated session c11e2326e21e44238668925448c1bb17 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+18:35:48.348 INFO - Preparing Firefox profile...
+18:35:55.933 INFO - Launching Firefox...
+18:36:03.548 INFO - Got result: OK,c11e2326e21e44238668925448c1bb17 on session c11e2326e21e44238668925448c1bb17
+18:36:03.559 INFO - Command request: open[/, ] on session c11e2326e21e44238668925448c1bb17
+18:36:33.586 INFO - Got result: Timed out after 30000ms on session c11e2326e21e44238668925448c1bb17
+18:36:33.610 INFO - Command request: close[, ] on session c11e2326e21e44238668925448c1bb17
+18:36:33.858 INFO - Got result: OK on session c11e2326e21e44238668925448c1bb17
+18:36:33.863 INFO - Command request: testComplete[, ] on session c11e2326e21e44238668925448c1bb17
+18:36:33.863 INFO - Killing Firefox...
+18:36:34.005 INFO - Got result: OK on session c11e2326e21e44238668925448c1bb17
+18:39:51.735 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+18:39:51.735 INFO - creating new remote session
+18:39:51.736 INFO - Allocated session a1ab09c7a7b7458cacdd78b6c858df5a for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+18:39:51.789 INFO - Preparing Firefox profile...
+18:39:56.606 INFO - Launching Firefox...
+18:40:04.896 INFO - Got result: OK,a1ab09c7a7b7458cacdd78b6c858df5a on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:04.913 INFO - Command request: open[/, ] on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:13.990 INFO - Got result: OK on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:13.997 INFO - Command request: open[http://localhost:8080/web/, ] on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:19.739 INFO - Got result: OK on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:19.744 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:19.807 INFO - Got result: OK on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:24.814 INFO - Command request: type[//input[@id='j_username'], admin] on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:24.834 INFO - Got result: OK on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:24.838 INFO - Command request: type[//*[@id='j_password'], admin] on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:24.880 INFO - Got result: OK on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:24.885 INFO - Command request: click[//button[@id='submit'], ] on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:26.223 INFO - Got result: OK on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:31.229 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:31.242 INFO - Got result: OK,true on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:31.258 INFO - Command request: close[, ] on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:31.326 INFO - Got result: OK on session a1ab09c7a7b7458cacdd78b6c858df5a
+18:40:31.339 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+18:40:31.339 INFO - creating new remote session
+18:40:31.340 INFO - Allocated session c33bddc1fe13404eaa8c1f384b73be72 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+18:40:31.404 INFO - Preparing Firefox profile...
+18:40:35.159 INFO - Launching Firefox...
+18:40:40.758 INFO - Got result: OK,c33bddc1fe13404eaa8c1f384b73be72 on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:40.764 INFO - Command request: open[/, ] on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:41.069 INFO - Got result: OK on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:41.073 INFO - Command request: open[http://localhost:8080/web/, ] on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:50.883 INFO - Got result: OK on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:50.889 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:50.934 INFO - Got result: OK on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:55.940 INFO - Command request: type[//input[@id='j_username'], user] on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:55.960 INFO - Got result: OK on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:56.035 INFO - Command request: type[//*[@id='j_password'], user] on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:56.046 INFO - Got result: OK on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:56.050 INFO - Command request: click[//button[@id='submit'], ] on session c33bddc1fe13404eaa8c1f384b73be72
+18:40:57.257 INFO - Got result: OK on session c33bddc1fe13404eaa8c1f384b73be72
+18:41:02.263 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session c33bddc1fe13404eaa8c1f384b73be72
+18:41:02.279 INFO - Got result: OK,true on session c33bddc1fe13404eaa8c1f384b73be72
+18:41:02.283 INFO - Command request: clickAt[//div[@class='navbar navbar-inverse navbar-static-top']/div/div/ul/li[1]/a, 5,5] on session c33bddc1fe13404eaa8c1f384b73be72
+18:41:02.344 INFO - Got result: OK on session c33bddc1fe13404eaa8c1f384b73be72
+18:41:07.350 INFO - Command request: click[//*[contains(text(),'First Admin page'], ] on session c33bddc1fe13404eaa8c1f384b73be72
+18:41:07.366 INFO - Got result: ERROR: Invalid xpath [2]: //*[contains(text(),'First Admin page'] on session c33bddc1fe13404eaa8c1f384b73be72
+18:41:07.380 INFO - Command request: close[, ] on session c33bddc1fe13404eaa8c1f384b73be72
+18:41:07.520 INFO - Got result: OK on session c33bddc1fe13404eaa8c1f384b73be72
+19:11:15.396 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+19:11:15.397 INFO - creating new remote session
+19:11:15.397 INFO - Allocated session 9559caf30c464ddb86ea5b4f53f45231 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+19:11:15.473 INFO - Preparing Firefox profile...
+19:11:19.504 INFO - Launching Firefox...
+19:11:26.986 INFO - Got result: OK,9559caf30c464ddb86ea5b4f53f45231 on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:26.997 INFO - Command request: open[/, ] on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:34.490 INFO - Got result: OK on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:34.502 INFO - Command request: open[http://localhost:8080/web/, ] on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:45.469 INFO - Got result: OK on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:45.474 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:45.519 INFO - Got result: OK on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:50.525 INFO - Command request: type[//input[@id='j_username'], admin] on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:50.549 INFO - Got result: OK on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:50.553 INFO - Command request: type[//*[@id='j_password'], admin] on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:50.598 INFO - Got result: OK on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:50.603 INFO - Command request: click[//button[@id='submit'], ] on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:51.479 INFO - Got result: OK on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:56.483 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:56.502 INFO - Got result: OK,true on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:56.515 INFO - Command request: testComplete[, ] on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:56.515 INFO - Killing Firefox...
+19:11:56.578 INFO - Got result: OK on session 9559caf30c464ddb86ea5b4f53f45231
+19:11:56.589 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+19:11:56.589 INFO - creating new remote session
+19:11:56.590 INFO - Allocated session b2b8a0afd52140bc8a17613e431b7ff0 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+19:11:56.648 INFO - Preparing Firefox profile...
+19:12:00.253 INFO - Launching Firefox...
+19:12:05.461 INFO - Got result: OK,b2b8a0afd52140bc8a17613e431b7ff0 on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:05.466 INFO - Command request: open[/, ] on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:05.649 INFO - Got result: OK on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:05.673 INFO - Command request: open[http://localhost:8080/web/, ] on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:17.015 INFO - Got result: OK on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:17.023 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:17.066 INFO - Got result: OK on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:22.073 INFO - Command request: type[//input[@id='j_username'], user] on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:22.097 INFO - Got result: OK on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:22.101 INFO - Command request: type[//*[@id='j_password'], user] on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:22.155 INFO - Got result: OK on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:22.159 INFO - Command request: click[//button[@id='submit'], ] on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:23.333 INFO - Got result: OK on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:28.339 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:28.358 INFO - Got result: OK,true on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:28.363 INFO - Command request: clickAt[//div[@class='navbar navbar-inverse navbar-static-top']/div/div/ul/li[1]/a, 5,5] on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:28.420 INFO - Got result: OK on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:33.425 INFO - Command request: click[//div[@class='navbar navbar-inverse navbar-static-top']/div/ul/li[2]/a/h3, ] on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:33.448 INFO - Got result: ERROR: Element //div[@class='navbar navbar-inverse navbar-static-top']/div/ul/li[2]/a/h3 not found on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:33.456 INFO - Command request: testComplete[, ] on session b2b8a0afd52140bc8a17613e431b7ff0
+19:12:33.456 INFO - Killing Firefox...
+19:12:33.579 INFO - Got result: OK on session b2b8a0afd52140bc8a17613e431b7ff0
+19:25:10.383 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+19:25:10.383 INFO - creating new remote session
+19:25:10.383 INFO - Allocated session 1dc5c4044fc74aa0b43781817573b149 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+19:25:10.477 INFO - Preparing Firefox profile...
+19:25:14.571 INFO - Launching Firefox...
+19:25:21.466 INFO - Got result: OK,1dc5c4044fc74aa0b43781817573b149 on session 1dc5c4044fc74aa0b43781817573b149
+19:25:21.488 INFO - Command request: open[/, ] on session 1dc5c4044fc74aa0b43781817573b149
+19:25:30.526 INFO - Got result: OK on session 1dc5c4044fc74aa0b43781817573b149
+19:25:30.533 INFO - Command request: open[http://localhost:8080/web/, ] on session 1dc5c4044fc74aa0b43781817573b149
+19:25:36.413 INFO - Got result: OK on session 1dc5c4044fc74aa0b43781817573b149
+19:25:36.418 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session 1dc5c4044fc74aa0b43781817573b149
+19:25:36.465 INFO - Got result: OK on session 1dc5c4044fc74aa0b43781817573b149
+19:25:41.471 INFO - Command request: type[//input[@id='j_username'], admin] on session 1dc5c4044fc74aa0b43781817573b149
+19:25:41.584 INFO - Got result: OK on session 1dc5c4044fc74aa0b43781817573b149
+19:25:41.588 INFO - Command request: type[//*[@id='j_password'], admin] on session 1dc5c4044fc74aa0b43781817573b149
+19:25:41.636 INFO - Got result: OK on session 1dc5c4044fc74aa0b43781817573b149
+19:25:41.640 INFO - Command request: click[//button[@id='submit'], ] on session 1dc5c4044fc74aa0b43781817573b149
+19:25:42.737 INFO - Got result: OK on session 1dc5c4044fc74aa0b43781817573b149
+19:25:47.743 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session 1dc5c4044fc74aa0b43781817573b149
+19:25:47.760 INFO - Got result: OK,true on session 1dc5c4044fc74aa0b43781817573b149
+19:25:47.787 INFO - Command request: testComplete[, ] on session 1dc5c4044fc74aa0b43781817573b149
+19:25:47.787 INFO - Killing Firefox...
+19:25:47.854 INFO - Got result: OK on session 1dc5c4044fc74aa0b43781817573b149
+19:25:47.867 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:8080, ] on session null
+19:25:47.867 INFO - creating new remote session
+19:25:47.868 INFO - Allocated session 8661237b1e0e4d20adcda1db001df2e8 for http://localhost:8080, launching...
+jar:file:/home/neouser/NEOVA/project/multimodulewithseleniumandbootstrap/tools/selenium/selenium-server-standalone-2.23.0.jar!/customProfileDirCUSTFFCHROME
+19:25:47.922 INFO - Preparing Firefox profile...
+19:25:51.678 INFO - Launching Firefox...
+19:25:56.683 INFO - Got result: OK,8661237b1e0e4d20adcda1db001df2e8 on session 8661237b1e0e4d20adcda1db001df2e8
+19:25:56.688 INFO - Command request: open[/, ] on session 8661237b1e0e4d20adcda1db001df2e8
+19:25:56.862 INFO - Got result: OK on session 8661237b1e0e4d20adcda1db001df2e8
+19:25:56.866 INFO - Command request: open[http://localhost:8080/web/, ] on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:06.677 INFO - Got result: OK on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:06.682 INFO - Command request: click[//*[contains(text(), 'Moderation page')], ] on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:06.734 INFO - Got result: OK on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:11.740 INFO - Command request: type[//input[@id='j_username'], user] on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:11.767 INFO - Got result: OK on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:11.771 INFO - Command request: type[//*[@id='j_password'], user] on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:11.822 INFO - Got result: OK on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:11.826 INFO - Command request: click[//button[@id='submit'], ] on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:13.045 INFO - Got result: OK on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:18.051 INFO - Command request: isElementPresent[//*[contains(text(),'Logout')], ] on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:18.071 INFO - Got result: OK,true on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:18.076 INFO - Command request: clickAt[//div[@class='navbar navbar-inverse navbar-static-top']/div/div/ul/li[1]/a, 5,5] on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:18.137 INFO - Got result: OK on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:23.143 INFO - Command request: click[//div[@class='navbar navbar-inverse navbar-static-top']/div/ul/li[2], ] on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:23.163 INFO - Got result: ERROR: Element //div[@class='navbar navbar-inverse navbar-static-top']/div/ul/li[2] not found on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:23.171 INFO - Command request: testComplete[, ] on session 8661237b1e0e4d20adcda1db001df2e8
+19:26:23.172 INFO - Killing Firefox...
+19:26:23.295 INFO - Got result: OK on session 8661237b1e0e4d20adcda1db001df2e8

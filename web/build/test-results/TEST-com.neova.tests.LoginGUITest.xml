@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.neova.tests.LoginGUITest" tests="2" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="neoD-ypatil" time="1.395383626593E9">
+  <properties/>
+  <testcase name="testAdminLogin on null(com.neova.tests.LoginGUITest)" classname="com.neova.tests.LoginGUITest" time="5.517"/>
+  <testcase name="testUserLoginAndAccess on null(com.neova.tests.LoginGUITest)" classname="com.neova.tests.LoginGUITest" time="4.533"/>
+  <system-out><![CDATA[Waiting for //*[@id='a-moderation-page']
+Waiting for //input[@id='j_username']
+Waiting for //*[@id='j_password']
+Waiting for //*[@id='a-submit']
+Waiting for //*[@id='a-logout-button']
+Waiting for //*[@id='a-logout-button']
+Waiting for //*[@id='a-moderation-page']
+Waiting for //*[@id='a-moderation-page']
+Waiting for //input[@id='j_username']
+Waiting for //*[@id='j_password']
+Waiting for //*[@id='a-submit']
+Waiting for //*[@id='a-logout-button']
+Waiting for //*[@id='a-home']
+Waiting for //*[@id='a-admin-first-page']
+Waiting for //*[@id='a-logout-button']
+Waiting for //*[@id='a-logout-button']
+Waiting for //*[@id='a-moderation-page']
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
