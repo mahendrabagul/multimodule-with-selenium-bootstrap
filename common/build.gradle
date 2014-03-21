@@ -16,6 +16,7 @@ ext.javaassistVersion='3.12.1.GA'
 ext.commonsdbcpVersion='1.4'
 
 dependencies {
+	runtime 'mysql:mysql-connector-java:5.1.29'
 	compile "org.springframework:spring-orm:$springVersion"
 	compile "org.springframework:spring-aop:$springVersion"
 	compile "org.springframework:spring-webmvc:$springVersion"
@@ -35,5 +36,33 @@ dependencies {
 	compile "org.springframework:spring-tx:$springVersion"
 	compile "cglib:cglib:$cglibVersion"
 	
+}
+
+def mySqlCommandLine(sql) {
+  "-u ${project.dbUser} -p${project.dbPass} -h ${project.dbHost} -P ${project.dbPort} -e".split().toList() + sql
+}
+
+def firstMember(hashSet) {
+  return hashSet.iterator().next()
+}
+
+task dropDB(type: Exec) {
+  executable = 'mysql'
+  args = mySqlCommandLine("drop database if exists ${project.dbName};")
+}
+
+task createDB(type: Exec, dependsOn: dropDB) {
+  executable = 'mysql'
+  args = mySqlCommandLine("create database ${project.dbName};")
+}
+
+task loadDB(type: Exec, dependsOn: createDB) {
+  executable = 'mysql'
+  args = mySqlCommandLine("use ${project.dbName};")
+}
+
+task buildDB(type: Exec, dependsOn: loadDB) {
+  executable = 'mysql'
+  args = mySqlCommandLine("use ${project.dbName};\\. ${projectDir}/src/DB/web.sql")
 }
 
