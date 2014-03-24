@@ -8,6 +8,22 @@ Configurations
 
 ##################################################################################################################################
 
+//////////////////////////////////////////////////
+
+new task created for setup
+just run 
+
+	./gradle doProjectSetup 
+
+for complete base project setup.
+
+Note: 
+	Make sure 'mysql' is install with user 'root'
+	and password 'root'
+
+//////////////////////////////////////////////////
+
+
 ///////////////////////////////////////////////////
 
 run './gradlew buildDB'
