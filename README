@@ -8,31 +8,23 @@ Configurations
 
 ##################################################################################################################################
 
-//////////////////////////////////////////////////
+For Complete Setup
 
-new task created for setup
-just run 
+Run	./gradlew doProjectSetup 
 
-	./gradle doProjectSetup 
+(Note: Make sure 'mysql' is install with user 'root' and password 'root')
 
-for complete base project setup.
+##################################################################################################################################
 
-Note: 
-	Make sure 'mysql' is install with user 'root'
-	and password 'root'
+For Building DB (Note: For the first time setup, no need to run this command if you have already run above command)
 
-//////////////////////////////////////////////////
+Run ./gradlew buildDB
 
+##################################################################################################################################
 
-///////////////////////////////////////////////////
-
-run './gradlew buildDB'
-
-This task will create all the required databases.
-
-///////////////////////////////////////////////////
-
-
+/**
+(Note: The Following configuration is now available with gradle task 'doProjectSetup')
+________________________________________________________________________________________________________________________________
 
 Create database 'neova'
 
@@ -55,6 +47,11 @@ Run ./gradlew tomcatinstall to install tomcat.
 Run ./gradlew eclipse to generate eclipse nature project.
 
 Run ./gradlew deploywar to deploywar.
+________________________________________________________________________________________________________________________________
+
+*/
+
+##################################################################################################################################
 
 Move to tomcat's bin directory and run startup.sh.
 
