@@ -63,6 +63,6 @@ task loadDB(type: Exec, dependsOn: createDB) {
 
 task buildDB(type: Exec, dependsOn: loadDB) {
   executable = 'mysql'
-  args = mySqlCommandLine("use ${project.dbName};\\. ${projectDir}/src/DB/web.sql")
+  args = mySqlCommandLine("use ${project.dbName};\\. ${projectDir}/src/db/web.sql")
 }
 

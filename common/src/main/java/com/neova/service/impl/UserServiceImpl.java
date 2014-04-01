@@ -12,6 +12,8 @@
 
 package com.neova.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -40,4 +42,51 @@ public class UserServiceImpl implements UserService {
 		return userDAO.getUser(login);
 	}
 
+	/**
+	 * For SignUp Form...
+	 * 
+	 * @param user
+	 */
+
+	@Override
+	@Transactional
+	public void insertUser(User user) {
+		userDAO.insertUser(user);
+	}
+
+	@Override
+	@Transactional
+	public User getUserById(int userId) {
+		return userDAO.getUserById(userId);
+	}
+
+	@Override
+	@Transactional
+	public List<User> getUsers() {
+		return userDAO.getUsers();
+	}
+
+	
+	
+	@Override
+	@Transactional
+	public void deleteUser(User user) {
+		userDAO.deleteUser(user);
+	}
+
+	@Override
+	@Transactional
+	public void updateUser(User user) {
+		userDAO.updateUser(user);
+	}
+
+	@Override
+	@Transactional
+	public Integer getNextId() {
+		return userDAO.getNextId();
+	}
+
+	/**
+	 * End Of Edit
+	 */
 }

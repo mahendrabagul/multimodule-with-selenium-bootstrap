@@ -20,7 +20,7 @@ task tomcatClean << {
   delete tomcatLatestDir, tomcatCurrentDir, file(tomcatVersion)
 }
 
-task tomcatUntar << {
+task tomcatUntar (dependsOn: tomcatClean) << {
   ant.untar(src: tomcatTar, dest:tomcatDir, compression: 'gzip')
 }
 
@@ -33,4 +33,4 @@ task tomcatChmod(dependsOn: tomcatSymlink) << {
   ant.chmod(perm: "a+x", dir:new File("${tomcatCurrentDir}/bin"), includes:'*.sh')
 }
 
-task tomcatInstall(dependsOn: tomcatChmod)
+task tomcatInstall(dependsOn:[tomcatChmod])

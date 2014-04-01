@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -9,7 +10,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Moderator page</title>
+<title>First Admin page</title>
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -45,20 +46,45 @@
 		</div>
 	</div>
 
-	<!--Contains of Home Page-->
+	<!--Contains of Home Page
 	<div class="container">
 		<div class="jumbotron">
-			<h1 class="text-center">Moderator's page</h1>
+			<h1 class="text-center">First Admin page</h1>
 			<p class="text-center">
-				This page can be viewed anyone of users having rights of admin and Also the users having moderator's access . It's  available for all users.<br />
+				This page can be viewed any user having rights of admin . It's not available for all users.<br />
 			</p>
 		</div>
 	</div>
+	-->
 
-	
+	<div class="container">
 
+			<h1 class="text-center"> Users List</h1>
+			<c:if test="${!empty userList}">
+			<table class="table table-bordered zebra-striped">
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>UserName</th>
+					<th>Email Id</th>
+					<th>Country</th>
+					<th>Mobile</th>
+				</tr>
+				<c:forEach items="${userList}" var="user">
+					<tr>
+						<td>${user.firstName}</td>
+						<td>${user.lastName}</td>
+						<td>${user.login}</td>
+						<td>${user.emailId}</td>
+						<td>${user.country}</td>
+						<td>${user.mobileNo}</td>
+					</tr>
+				</c:forEach>
+			</table>
+			</c:if>
+	</div>
 
-	<!--End of Contains of Home Page-->
+	<!--End of Contains of Moderation Page-->
 
 	<!--Bottom(Footer) Content -->
 
@@ -80,3 +106,4 @@
 
 </body>
 </html>
+

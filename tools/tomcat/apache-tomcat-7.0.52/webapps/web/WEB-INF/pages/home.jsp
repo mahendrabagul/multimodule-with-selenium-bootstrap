@@ -57,8 +57,8 @@
 	<div class="container">
 		<div class="well ">
 			<ul> 
-				<li><a id="a-moderation-page" href="${pageContext.request.contextPath}/sec/moderation.html"><h3>Moderation page</h3></a></li>
-				<li><a id="a-admin-first-page" href="${pageContext.request.contextPath}/admin/first.html"><h3>First Admin page</h3></a></li>
+				<li><a id="a-moderation-page" href="${pageContext.request.contextPath}/sec/moderation.html"><h3>View All Users</h3></a></li>
+				<li><a id="a-admin-first-page" href="${pageContext.request.contextPath}/admin/first.html"><h3>User Management</h3></a></li>
 				<li><a id="a-admin-second-page" href="${pageContext.request.contextPath}/admin/second.html"><h3>Second Admin page</h3></a></li>
 			</ul>		
 		</div>

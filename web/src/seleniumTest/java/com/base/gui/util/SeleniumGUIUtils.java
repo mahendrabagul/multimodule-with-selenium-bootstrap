@@ -710,19 +710,16 @@ public class SeleniumGUIUtils implements Selenium {
 
 
 	public void addCustomRequestHeader(String arg0, String arg1) {
-		// TODO Auto-generated method stub
 
 	}
 
 
 	public void addScript(String arg0, String arg1) {
-		// TODO Auto-generated method stub
 
 	}
 
 
 	public void attachFile(String arg0, String arg1) {
-		// TODO Auto-generated method stub
 
 	}
 
