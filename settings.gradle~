@@ -1,6 +1,0 @@
-include 'common'
-include 'web'
-include 'tools'
-include 'common:buildDB'
-include 'tools:tomcatInstall'
-include 'web:deploywar'
